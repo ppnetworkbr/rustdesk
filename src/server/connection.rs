@@ -2674,7 +2674,7 @@ impl Connection {
                     {
                         return;
                     }
-                    let mut record_changed = true;
+                    let record_changed = true;
                     #[cfg(all(windows, feature = "virtual_display_driver"))]
                     if virtual_display_manager::amyuni_idd::is_my_display(&name) {
                         record_changed = false;

@@ -18,7 +18,6 @@ use core_graphics::{
     window::{kCGWindowName, kCGWindowOwnerPID},
 };
 use hbb_common::{
-    allow_err,
     anyhow::anyhow,
     bail, log,
     message_proto::{DisplayInfo, Resolution},
